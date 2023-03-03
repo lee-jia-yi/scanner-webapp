@@ -1,3 +1,8 @@
+A take home assignment for WaveScan; 
+This is a webapp created using ReactJS to allows users to input scanner parameters and submit the information to a backend API for validation.
+Input Validation is made to be responsive on input change. 
+Live app is deployed at: https://super-semifreddo-542d68.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
