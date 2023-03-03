@@ -1,0 +1,104 @@
+form {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background: rgba(0, 0, 0, .1);
+ padding: 100px;
+}
+
+.search-form {
+ display: flex;
+ flex-direction: column;
+}
+
+div .field {
+ margin-bottom: 15px;
+}
+
+label {
+ font-family: sans-serif;
+ letter-spacing: 4px;
+ text-transform: uppercase;
+ font-size: .8em;
+ color: #FFF;
+ margin-right: 15px;
+}
+
+input[type=text],
+input[type=number] {
+ display: inline-block;
+ border: none;
+ text-align: left;
+ box-shadow: 3px 2px rgba(255, 255, 255, 0.3);
+ padding: 10px;
+ width: 330px;
+ margin: 10px 0 10px 0;
+ background: white;
+ border-radius: 15px;
+ color: black;
+}
+
+input[type=text]:focus,
+input[type=number]:focus {
+ border: none;
+ color: black;
+}
+
+.dimensions-field {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+
+.dimensions-field input {
+ width: 100px;
+}
+
+select {
+ display: inline-block;
+ border: none;
+ text-align: left;
+ box-shadow: 3px 2px rgba(255, 255, 255, 0.3);
+ padding: 10px;
+ width: 350px;
+ margin: 10px 0px;
+ background: white;
+ color: black;
+ border-radius: 15px;
+}
+
+.submit-btn {
+ color: #000070;
+ text-transform: uppercase;
+ letter-spacing: 4px;
+ margin: 20px 0;
+ padding: 10px 30px;
+ border: 2px solid #FFF;
+ font-size: 20px;
+ border-radius: 10px;
+ background: #FFF;
+ font-weight: bold;
+ cursor: pointer;
+}
+
+.submit-btn:hover {
+ color: #FFF;
+ border: 2px solid #FFF;
+ background: #000070;
+ font-weight: bold;
+}
+
+.submit-btn:disabled,
+.submit-btn[disabled] {
+ border: 1px solid #999999;
+ background-color: #cccccc;
+ color: #666666;
+ cursor: not-allowed;
+}
+
+.error {
+ color: red;
+ font-size: 12px;
+ font-weight: 40;
+}
